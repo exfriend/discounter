@@ -1,0 +1,25 @@
+{
+  "name": "exfriend/discounter",
+  "description": "Coupon management for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "exfriend",
+      "email": "krevedkothesaint@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Exfriend\\Discounter\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Exfriend\\Discounter\\DiscounterServiceProvider"
+      ]
+    }
+  }
+}
